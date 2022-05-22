@@ -1,0 +1,267 @@
+database_id,start_time,variable_field,value_field
+synpuf,TM_2022-05-20 13:51:59,timeZone,America/New_York
+synpuf,TM_2022-05-20 13:51:59,runTime,1.09027181559139
+synpuf,TM_2022-05-20 13:51:59,runTimeUnits,hours
+synpuf,TM_2022-05-20 13:51:59,packageDependencySnapShotJson,"{
+	""package"" : [
+		""R"",
+		""grDevices"",
+		""graphics"",
+		""utils"",
+		""stats"",
+		""methods"",
+		""glue"",
+		""cli"",
+		""rlang"",
+		""crayon"",
+		""ellipsis"",
+		""fansi"",
+		""lifecycle"",
+		""magrittr"",
+		""pkgconfig"",
+		""utf8"",
+		""vctrs"",
+		""bit"",
+		""cpp11"",
+		""fastmap"",
+		""hms"",
+		""pillar"",
+		""prettyunits"",
+		""purrr"",
+		""R6"",
+		""bit64"",
+		""cachem"",
+		""generics"",
+		""progress"",
+		""Rcpp"",
+		""tibble"",
+		""tidyselect"",
+		""tools"",
+		""tzdb"",
+		""withr"",
+		""assertthat"",
+		""blob"",
+		""clipr"",
+		""DBI"",
+		""dplyr"",
+		""memoise"",
+		""plogr"",
+		""rJava"",
+		""stringi"",
+		""triebeard"",
+		""vroom"",
+		""backports"",
+		""dbplyr"",
+		""jsonlite"",
+		""readr"",
+		""RSQLite"",
+		""snow"",
+		""SqlRender"",
+		""stringr"",
+		""urltools"",
+		""xml2"",
+		""zip"",
+		""Andromeda"",
+		""checkmate"",
+		""DatabaseConnector"",
+		""digest"",
+		""lubridate"",
+		""ParallelLogger"",
+		""RJSONIO"",
+		""clock"",
+		""CohortGenerator"",
+		""FeatureExtraction"",
+		""tidyr"",
+		""CohortDiagnostics""
+	],
+	""version"" : [
+		""4.1.3"",
+		""4.1.3"",
+		""4.1.3"",
+		""4.1.3"",
+		""4.1.3"",
+		""4.1.3"",
+		""1.6.2"",
+		""3.3.0"",
+		""1.0.2"",
+		""1.5.1"",
+		""0.3.2"",
+		""1.0.3"",
+		""1.0.1"",
+		""2.0.3"",
+		""2.0.3"",
+		""1.2.2"",
+		""0.4.1"",
+		""4.0.4"",
+		""0.4.2"",
+		""1.1.0"",
+		""1.1.1"",
+		""1.7.0"",
+		""1.1.1"",
+		""0.3.4"",
+		""2.5.1"",
+		""4.0.5"",
+		""1.0.6"",
+		""0.1.2"",
+		""1.2.2"",
+		""1.0.8.3"",
+		""3.1.7"",
+		""1.1.2"",
+		""4.1.3"",
+		""0.3.0"",
+		""2.5.0"",
+		""0.2.1"",
+		""1.2.3"",
+		""0.8.0"",
+		""1.1.2"",
+		""1.0.9"",
+		""2.0.1"",
+		""0.2.0"",
+		""1.0-6"",
+		""1.7.6"",
+		""0.3.0"",
+		""1.5.7"",
+		""1.4.1"",
+		""2.1.1"",
+		""1.8.0"",
+		""2.1.2"",
+		""2.2.14"",
+		""0.4-4"",
+		""1.9.0"",
+		""1.4.0"",
+		""1.7.3"",
+		""1.3.3"",
+		""2.2.0"",
+		""0.6.0"",
+		""2.1.0"",
+		""5.0.2"",
+		""0.6.29"",
+		""1.8.0"",
+		""3.0.0"",
+		""1.3-1.6"",
+		""0.6.0"",
+		""0.4.0"",
+		""3.2.0"",
+		""1.2.0"",
+		""3.0.0""
+	]
+}"
+synpuf,TM_2022-05-20 13:51:59,argumentsAtDiagnosticsInitiationJson,"{
+	""runInclusionStatistics"" : true,
+	""runIncludedSourceConcepts"" : true,
+	""runOrphanConcepts"" : true,
+	""runTimeSeries"" : false,
+	""runVisitContext"" : true,
+	""runBreakdownIndexEvents"" : true,
+	""runIncidenceRate"" : true,
+	""runTemporalCohortCharacterization"" : true,
+	""minCellCount"" : 5,
+	""incremental"" : false,
+	""temporalCovariateSettings"" : {
+		"""" : [
+			""::"",
+			""FeatureExtraction"",
+			""createTemporalCovariateSettings""
+		],
+		""useDemographicsGender"" : true,
+		""useDemographicsAge"" : true,
+		""useDemographicsAgeGroup"" : true,
+		""useDemographicsRace"" : true,
+		""useDemographicsEthnicity"" : true,
+		""useDemographicsIndexYear"" : true,
+		""useDemographicsIndexMonth"" : true,
+		""useDemographicsIndexYearMonth"" : true,
+		""useDemographicsPriorObservationTime"" : true,
+		""useDemographicsPostObservationTime"" : true,
+		""useDemographicsTimeInCohort"" : true,
+		""useConditionOccurrence"" : true,
+		""useProcedureOccurrence"" : true,
+		""useDrugEraStart"" : true,
+		""useMeasurement"" : true,
+		""useConditionEraStart"" : true,
+		""useConditionEraOverlap"" : true,
+		""useConditionEraGroupStart"" : false,
+		""useConditionEraGroupOverlap"" : true,
+		""useDrugExposure"" : false,
+		""useDrugEraOverlap"" : false,
+		""useDrugEraGroupStart"" : false,
+		""useDrugEraGroupOverlap"" : true,
+		""useObservation"" : true,
+		""useDeviceExposure"" : true,
+		""useCharlsonIndex"" : true,
+		""useDcsi"" : true,
+		""useChads2"" : true,
+		""useChads2Vasc"" : true,
+		""useHfrs"" : false,
+		""temporalStartDays"" : [
+			""c"",
+			[
+				""-"",
+				9999
+			],
+			[
+				""-"",
+				365
+			],
+			[
+				""-"",
+				180
+			],
+			[
+				""-"",
+				30
+			],
+			[
+				""-"",
+				365
+			],
+			[
+				""-"",
+				30
+			],
+			0,
+			1,
+			31,
+			[
+				""-"",
+				9999
+			]
+		],
+		""temporalEndDays"" : [
+			""c"",
+			0,
+			0,
+			0,
+			0,
+			[
+				""-"",
+				31
+			],
+			[
+				""-"",
+				1
+			],
+			0,
+			30,
+			365,
+			9999
+		]
+	}
+}"
+synpuf,TM_2022-05-20 13:51:59,rversion,R version 4.1.3 (2022-03-10)
+synpuf,TM_2022-05-20 13:51:59,currentPackage,CohortDiagnostics
+synpuf,TM_2022-05-20 13:51:59,currentPackageVersion,3.0.0
+synpuf,TM_2022-05-20 13:51:59,sourceDescription,NA
+synpuf,TM_2022-05-20 13:51:59,cdmSourceName,synpuf110k
+synpuf,TM_2022-05-20 13:51:59,sourceReleaseDate,NA
+synpuf,TM_2022-05-20 13:51:59,cdmVersion,NA
+synpuf,TM_2022-05-20 13:51:59,cdmReleaseDate,NA
+synpuf,TM_2022-05-20 13:51:59,vocabularyVersion,NA
+synpuf,TM_2022-05-20 13:51:59,datasourceName,synpuf
+synpuf,TM_2022-05-20 13:51:59,datasourceDescription,synpuf
+synpuf,TM_2022-05-20 13:51:59,vocabularyVersionCdm,NA
+synpuf,TM_2022-05-20 13:51:59,observationPeriodMinDate,2007-11-27
+synpuf,TM_2022-05-20 13:51:59,observationPeriodMaxDate,2010-12-31
+synpuf,TM_2022-05-20 13:51:59,personsInDatasource,104891
+synpuf,TM_2022-05-20 13:51:59,recordsInDatasource,104891
+synpuf,TM_2022-05-20 13:51:59,personDaysInDatasource,95946443
