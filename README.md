@@ -8,7 +8,7 @@
 - Tags: **Reproducibilty**, **DOACs**
 - Study lead: **Asieh Golozar**
 - Study lead forums tag: **(https://forums.ohdsi.org/u/agolozar)**
-- Study start date: **MArch 2022**
+- Study start date: **March 2022**
 - Study end date: **-**
 - Protocol **DRAFT**: **[DOACs REPLICATION_Protocol_DRAFT_April 2022.docx](https://github.com/ohdsi-studies/ReproducibilityRayJAMA2021/files/8750120/DOACs.REPLICATION_Protocol_DRAFT_April.2022.docx)**
 - Publications: **-**
