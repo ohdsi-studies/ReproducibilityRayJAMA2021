@@ -10,8 +10,7 @@ Reproducibility_Ray JAMA 2021
 - Study lead forums tag: **https://forums.ohdsi.org/u/agolozar**
 - Study start date: **March 2022**
 - Study end date: **-**
-- Protocol **DRAFT**: **[DOACs REPLICATION_Protocol_DRAFT 2.docx](https://github.com/ohdsi-studies/ReproducibilityRayJAMA2021/files/8753722/DOACs.REPLICATION_Protocol_DRAFT.2.docx)
-**
+- Protocol **DRAFT**: **[DOACs REPLICATION_Protocol_DRAFT 2.docx]**(https://github.com/ohdsi-studies/ReproducibilityRayJAMA2021/files/8753722/DOACs.REPLICATION_Protocol_DRAFT.2.docx)
 - Publications: **-**
 - Results explorer: **-**
 
