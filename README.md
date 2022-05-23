@@ -76,5 +76,5 @@ Recently, a high-impact observational comparative cohort study was conducted and
   
 5. Share Results:
   - This code will create a folder called *diagnostics*. In this folder there is a .zip file. 
-  - Send the zip file to martin.lavallee@odysseusinc.com
+  - Send the zip file to asieh.golozar@odysseusinc.com
   
