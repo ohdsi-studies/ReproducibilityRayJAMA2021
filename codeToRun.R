@@ -69,7 +69,7 @@ CohortGenerator::generateCohortSet(
 #Step 3 -- Run cohortDiagnostics
 
 #execute cohort diagnostics
-CohortDiagnostics::CohortDiagnostics::executeDiagnostics(cohortDefinitionSet = cohortDefinitionSet,
+CohortDiagnostics::executeDiagnostics(cohortDefinitionSet = cohortDefinitionSet,
                    exportFolder = "diagnostics",
                    databaseId = "<database>",
                    cohortDatabaseSchema = resultsDatabaseSchema,
