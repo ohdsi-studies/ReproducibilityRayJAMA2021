@@ -14,6 +14,4 @@ Reproducibility_Ray JAMA 2021
 - Publications: **-**
 - Results explorer: **-**
 
-
-
 Recently, a high-impact observational comparative cohort study was conducted and published in JAMA using a nation-wide sample of U.S. administrative claims. It demonstrated a significantly increased risk of major ischemic or hemorrhagic events associated with treatment of rivaroxaban compared to that of apixaban. This study aims to independently replicate that study using a similar database. It also aims to evaluate the robustness of the study findings by conducting sensitivity analyses, assessing: 1) changes to definitions of exposure and outcome phenotypes, 2) calibration of effect estimates using empirical null distributions, and 3) observable study diagnostics that inform the validity of a given analysis. Finally, it aims to explore the generalizability of the findings by executing the analysis on alternative databases with varying populations (U.S. and non-U.S.) and mechanisms of data capture (electronic health records data).
