@@ -52,7 +52,7 @@ sql <- purrr::map_chr(json,
 
 #build cohortdefinition Dataframe
 cohortDefinitionSet <- data.frame(
-  'cohortId' = 1:4,
+  'cohortId' = seq_along(ll2),
   'cohortName' = nn2,
   'json' = json,
   'sql' = sql)
