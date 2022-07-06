@@ -10,6 +10,22 @@ library(CirceR)
 library(CohortGenerator)
 library(CohortDiagnostics)
 library(DatabaseConnector)
+library(tidyverse)
+
+#Cohort Diagnostics dependencies
+library(scales)
+library(ggiraph)
+library(DT)
+library(htmltools)
+library(knitr)
+library(pool)
+library(plotly)
+library(remotes)
+library(shiny)
+library(shinyDashboard)
+library(shinyWidgets)
+library(zip)
+library(rmarkdown)
 
 ## Step 1 - set up database connections and point to schemas
 
