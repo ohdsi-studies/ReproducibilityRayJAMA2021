@@ -1,0 +1,266 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+1747,1748,4137448,Retraction of nipple,outcome
+1747,1748,4163899,Day blindness,outcome
+1747,1748,443585,Abrasion and/or friction burn of multiple sites,outcome
+1747,1748,4093531,Absence of toe,outcome
+1747,1748,138384,Acquired hypothyroidism,outcome
+1747,1748,257011,Acute upper respiratory infection,outcome
+1747,1748,4307956,Bipolar II disorder,outcome
+1747,1748,4195873,Breath smells unpleasant,outcome
+1747,1748,133384,Burn any degree involving less than 10 percent of body surface,outcome
+1747,1748,440387,Cannabis dependence,outcome
+1747,1748,380094,Carpal tunnel syndrome,outcome
+1747,1748,434502,Closed fracture of phalanx of foot,outcome
+1747,1748,377910,Deviated nasal septum,outcome
+1747,1748,443238,Diabetic - poor control,outcome
+1747,1748,4164898,Diverticulosis of large intestine without diverticulitis,outcome
+1747,1748,374358,Excess skin of eyelid,outcome
+1747,1748,4133610,Fracture of upper end of humerus,outcome
+1747,1748,441487,Frostbite,outcome
+1747,1748,196456,Gallstone,outcome
+1747,1748,4338512,Gender identity disorder,outcome
+1747,1748,4168217,Generalized hyperhidrosis,outcome
+1747,1748,36717114,"Human papillomavirus deoxyribonucleic acid test positive, high risk on cervical specimen",outcome
+1747,1748,374375,Impacted cerumen,outcome
+1747,1748,440053,Infestation by insect,outcome
+1747,1748,194133,Low back pain,outcome
+1747,1748,4128329,Menopause present,outcome
+1747,1748,434005,Morbid obesity,outcome
+1747,1748,374919,Multiple sclerosis,outcome
+1747,1748,441553,Myoclonus,outcome
+1747,1748,4195085,Nasal congestion,outcome
+1747,1748,24134,Neck pain,outcome
+1747,1748,4209423,Nicotine dependence,outcome
+1747,1748,439907,Non-traumatic tendon rupture,outcome
+1747,1748,443876,Obsessive compulsive personality disorder,outcome
+1747,1748,4270932,Pain in testicle,outcome
+1747,1748,381270,Parkinson's disease,outcome
+1747,1748,4022076,Patient dependence on care provider,outcome
+1747,1748,373478,Presbyopia,outcome
+1747,1748,136773,Rosacea,outcome
+1747,1748,4286201,Schizoaffective disorder,outcome
+1747,1748,4248728,Snoring,outcome
+1747,1748,77079,Spinal stenosis,outcome
+1747,1748,4167097,Spondylolisthesis,outcome
+1747,1748,40479573,Stimulant abuse,outcome
+1747,1748,45766819,Stress fracture of foot,outcome
+1747,1748,378427,Tear film insufficiency,outcome
+1747,1748,45768910,Uncomplicated asthma,outcome
+1747,1748,436070,Vitamin D deficiency,outcome
+1747,1748,73560,Calcaneal spur,outcome
+1747,1748,194991,Calculus of gallbladder with acute cholecystitis,outcome
+1747,1748,260134,Croup,outcome
+1747,1748,4134321,Fracture of neck of humerus,outcome
+1747,1748,40484648,Type 1 diabetes mellitus uncontrolled,outcome
+1788,1789,4137448,Retraction of nipple,outcome
+1788,1789,4163899,Day blindness,outcome
+1788,1789,443585,Abrasion and/or friction burn of multiple sites,outcome
+1788,1789,4093531,Absence of toe,outcome
+1788,1789,138384,Acquired hypothyroidism,outcome
+1788,1789,257011,Acute upper respiratory infection,outcome
+1788,1789,4307956,Bipolar II disorder,outcome
+1788,1789,4195873,Breath smells unpleasant,outcome
+1788,1789,133384,Burn any degree involving less than 10 percent of body surface,outcome
+1788,1789,440387,Cannabis dependence,outcome
+1788,1789,380094,Carpal tunnel syndrome,outcome
+1788,1789,434502,Closed fracture of phalanx of foot,outcome
+1788,1789,377910,Deviated nasal septum,outcome
+1788,1789,443238,Diabetic - poor control,outcome
+1788,1789,4164898,Diverticulosis of large intestine without diverticulitis,outcome
+1788,1789,374358,Excess skin of eyelid,outcome
+1788,1789,4133610,Fracture of upper end of humerus,outcome
+1788,1789,441487,Frostbite,outcome
+1788,1789,196456,Gallstone,outcome
+1788,1789,4338512,Gender identity disorder,outcome
+1788,1789,4168217,Generalized hyperhidrosis,outcome
+1788,1789,36717114,"Human papillomavirus deoxyribonucleic acid test positive, high risk on cervical specimen",outcome
+1788,1789,374375,Impacted cerumen,outcome
+1788,1789,440053,Infestation by insect,outcome
+1788,1789,194133,Low back pain,outcome
+1788,1789,4128329,Menopause present,outcome
+1788,1789,434005,Morbid obesity,outcome
+1788,1789,374919,Multiple sclerosis,outcome
+1788,1789,441553,Myoclonus,outcome
+1788,1789,4195085,Nasal congestion,outcome
+1788,1789,24134,Neck pain,outcome
+1788,1789,4209423,Nicotine dependence,outcome
+1788,1789,439907,Non-traumatic tendon rupture,outcome
+1788,1789,443876,Obsessive compulsive personality disorder,outcome
+1788,1789,4270932,Pain in testicle,outcome
+1788,1789,381270,Parkinson's disease,outcome
+1788,1789,4022076,Patient dependence on care provider,outcome
+1788,1789,373478,Presbyopia,outcome
+1788,1789,136773,Rosacea,outcome
+1788,1789,4286201,Schizoaffective disorder,outcome
+1788,1789,4248728,Snoring,outcome
+1788,1789,77079,Spinal stenosis,outcome
+1788,1789,4167097,Spondylolisthesis,outcome
+1788,1789,40479573,Stimulant abuse,outcome
+1788,1789,45766819,Stress fracture of foot,outcome
+1788,1789,378427,Tear film insufficiency,outcome
+1788,1789,45768910,Uncomplicated asthma,outcome
+1788,1789,436070,Vitamin D deficiency,outcome
+1788,1789,73560,Calcaneal spur,outcome
+1788,1789,194991,Calculus of gallbladder with acute cholecystitis,outcome
+1788,1789,260134,Croup,outcome
+1788,1789,4134321,Fracture of neck of humerus,outcome
+1788,1789,40484648,Type 1 diabetes mellitus uncontrolled,outcome
+1790,1791,4137448,Retraction of nipple,outcome
+1790,1791,4163899,Day blindness,outcome
+1790,1791,443585,Abrasion and/or friction burn of multiple sites,outcome
+1790,1791,4093531,Absence of toe,outcome
+1790,1791,138384,Acquired hypothyroidism,outcome
+1790,1791,257011,Acute upper respiratory infection,outcome
+1790,1791,4307956,Bipolar II disorder,outcome
+1790,1791,4195873,Breath smells unpleasant,outcome
+1790,1791,133384,Burn any degree involving less than 10 percent of body surface,outcome
+1790,1791,440387,Cannabis dependence,outcome
+1790,1791,380094,Carpal tunnel syndrome,outcome
+1790,1791,434502,Closed fracture of phalanx of foot,outcome
+1790,1791,377910,Deviated nasal septum,outcome
+1790,1791,443238,Diabetic - poor control,outcome
+1790,1791,4164898,Diverticulosis of large intestine without diverticulitis,outcome
+1790,1791,374358,Excess skin of eyelid,outcome
+1790,1791,4133610,Fracture of upper end of humerus,outcome
+1790,1791,441487,Frostbite,outcome
+1790,1791,196456,Gallstone,outcome
+1790,1791,4338512,Gender identity disorder,outcome
+1790,1791,4168217,Generalized hyperhidrosis,outcome
+1790,1791,36717114,"Human papillomavirus deoxyribonucleic acid test positive, high risk on cervical specimen",outcome
+1790,1791,374375,Impacted cerumen,outcome
+1790,1791,440053,Infestation by insect,outcome
+1790,1791,194133,Low back pain,outcome
+1790,1791,4128329,Menopause present,outcome
+1790,1791,434005,Morbid obesity,outcome
+1790,1791,374919,Multiple sclerosis,outcome
+1790,1791,441553,Myoclonus,outcome
+1790,1791,4195085,Nasal congestion,outcome
+1790,1791,24134,Neck pain,outcome
+1790,1791,4209423,Nicotine dependence,outcome
+1790,1791,439907,Non-traumatic tendon rupture,outcome
+1790,1791,443876,Obsessive compulsive personality disorder,outcome
+1790,1791,4270932,Pain in testicle,outcome
+1790,1791,381270,Parkinson's disease,outcome
+1790,1791,4022076,Patient dependence on care provider,outcome
+1790,1791,373478,Presbyopia,outcome
+1790,1791,136773,Rosacea,outcome
+1790,1791,4286201,Schizoaffective disorder,outcome
+1790,1791,4248728,Snoring,outcome
+1790,1791,77079,Spinal stenosis,outcome
+1790,1791,4167097,Spondylolisthesis,outcome
+1790,1791,40479573,Stimulant abuse,outcome
+1790,1791,45766819,Stress fracture of foot,outcome
+1790,1791,378427,Tear film insufficiency,outcome
+1790,1791,45768910,Uncomplicated asthma,outcome
+1790,1791,436070,Vitamin D deficiency,outcome
+1790,1791,73560,Calcaneal spur,outcome
+1790,1791,194991,Calculus of gallbladder with acute cholecystitis,outcome
+1790,1791,260134,Croup,outcome
+1790,1791,4134321,Fracture of neck of humerus,outcome
+1790,1791,40484648,Type 1 diabetes mellitus uncontrolled,outcome
+1792,1793,4137448,Retraction of nipple,outcome
+1792,1793,4163899,Day blindness,outcome
+1792,1793,443585,Abrasion and/or friction burn of multiple sites,outcome
+1792,1793,4093531,Absence of toe,outcome
+1792,1793,138384,Acquired hypothyroidism,outcome
+1792,1793,257011,Acute upper respiratory infection,outcome
+1792,1793,4307956,Bipolar II disorder,outcome
+1792,1793,4195873,Breath smells unpleasant,outcome
+1792,1793,133384,Burn any degree involving less than 10 percent of body surface,outcome
+1792,1793,440387,Cannabis dependence,outcome
+1792,1793,380094,Carpal tunnel syndrome,outcome
+1792,1793,434502,Closed fracture of phalanx of foot,outcome
+1792,1793,377910,Deviated nasal septum,outcome
+1792,1793,443238,Diabetic - poor control,outcome
+1792,1793,4164898,Diverticulosis of large intestine without diverticulitis,outcome
+1792,1793,374358,Excess skin of eyelid,outcome
+1792,1793,4133610,Fracture of upper end of humerus,outcome
+1792,1793,441487,Frostbite,outcome
+1792,1793,196456,Gallstone,outcome
+1792,1793,4338512,Gender identity disorder,outcome
+1792,1793,4168217,Generalized hyperhidrosis,outcome
+1792,1793,36717114,"Human papillomavirus deoxyribonucleic acid test positive, high risk on cervical specimen",outcome
+1792,1793,374375,Impacted cerumen,outcome
+1792,1793,440053,Infestation by insect,outcome
+1792,1793,194133,Low back pain,outcome
+1792,1793,4128329,Menopause present,outcome
+1792,1793,434005,Morbid obesity,outcome
+1792,1793,374919,Multiple sclerosis,outcome
+1792,1793,441553,Myoclonus,outcome
+1792,1793,4195085,Nasal congestion,outcome
+1792,1793,24134,Neck pain,outcome
+1792,1793,4209423,Nicotine dependence,outcome
+1792,1793,439907,Non-traumatic tendon rupture,outcome
+1792,1793,443876,Obsessive compulsive personality disorder,outcome
+1792,1793,4270932,Pain in testicle,outcome
+1792,1793,381270,Parkinson's disease,outcome
+1792,1793,4022076,Patient dependence on care provider,outcome
+1792,1793,373478,Presbyopia,outcome
+1792,1793,136773,Rosacea,outcome
+1792,1793,4286201,Schizoaffective disorder,outcome
+1792,1793,4248728,Snoring,outcome
+1792,1793,77079,Spinal stenosis,outcome
+1792,1793,4167097,Spondylolisthesis,outcome
+1792,1793,40479573,Stimulant abuse,outcome
+1792,1793,45766819,Stress fracture of foot,outcome
+1792,1793,378427,Tear film insufficiency,outcome
+1792,1793,45768910,Uncomplicated asthma,outcome
+1792,1793,436070,Vitamin D deficiency,outcome
+1792,1793,73560,Calcaneal spur,outcome
+1792,1793,194991,Calculus of gallbladder with acute cholecystitis,outcome
+1792,1793,260134,Croup,outcome
+1792,1793,4134321,Fracture of neck of humerus,outcome
+1792,1793,40484648,Type 1 diabetes mellitus uncontrolled,outcome
+1794,1795,4137448,Retraction of nipple,outcome
+1794,1795,4163899,Day blindness,outcome
+1794,1795,443585,Abrasion and/or friction burn of multiple sites,outcome
+1794,1795,4093531,Absence of toe,outcome
+1794,1795,138384,Acquired hypothyroidism,outcome
+1794,1795,257011,Acute upper respiratory infection,outcome
+1794,1795,4307956,Bipolar II disorder,outcome
+1794,1795,4195873,Breath smells unpleasant,outcome
+1794,1795,133384,Burn any degree involving less than 10 percent of body surface,outcome
+1794,1795,440387,Cannabis dependence,outcome
+1794,1795,380094,Carpal tunnel syndrome,outcome
+1794,1795,434502,Closed fracture of phalanx of foot,outcome
+1794,1795,377910,Deviated nasal septum,outcome
+1794,1795,443238,Diabetic - poor control,outcome
+1794,1795,4164898,Diverticulosis of large intestine without diverticulitis,outcome
+1794,1795,374358,Excess skin of eyelid,outcome
+1794,1795,4133610,Fracture of upper end of humerus,outcome
+1794,1795,441487,Frostbite,outcome
+1794,1795,196456,Gallstone,outcome
+1794,1795,4338512,Gender identity disorder,outcome
+1794,1795,4168217,Generalized hyperhidrosis,outcome
+1794,1795,36717114,"Human papillomavirus deoxyribonucleic acid test positive, high risk on cervical specimen",outcome
+1794,1795,374375,Impacted cerumen,outcome
+1794,1795,440053,Infestation by insect,outcome
+1794,1795,194133,Low back pain,outcome
+1794,1795,4128329,Menopause present,outcome
+1794,1795,434005,Morbid obesity,outcome
+1794,1795,374919,Multiple sclerosis,outcome
+1794,1795,441553,Myoclonus,outcome
+1794,1795,4195085,Nasal congestion,outcome
+1794,1795,24134,Neck pain,outcome
+1794,1795,4209423,Nicotine dependence,outcome
+1794,1795,439907,Non-traumatic tendon rupture,outcome
+1794,1795,443876,Obsessive compulsive personality disorder,outcome
+1794,1795,4270932,Pain in testicle,outcome
+1794,1795,381270,Parkinson's disease,outcome
+1794,1795,4022076,Patient dependence on care provider,outcome
+1794,1795,373478,Presbyopia,outcome
+1794,1795,136773,Rosacea,outcome
+1794,1795,4286201,Schizoaffective disorder,outcome
+1794,1795,4248728,Snoring,outcome
+1794,1795,77079,Spinal stenosis,outcome
+1794,1795,4167097,Spondylolisthesis,outcome
+1794,1795,40479573,Stimulant abuse,outcome
+1794,1795,45766819,Stress fracture of foot,outcome
+1794,1795,378427,Tear film insufficiency,outcome
+1794,1795,45768910,Uncomplicated asthma,outcome
+1794,1795,436070,Vitamin D deficiency,outcome
+1794,1795,73560,Calcaneal spur,outcome
+1794,1795,194991,Calculus of gallbladder with acute cholecystitis,outcome
+1794,1795,260134,Croup,outcome
+1794,1795,4134321,Fracture of neck of humerus,outcome
+1794,1795,40484648,Type 1 diabetes mellitus uncontrolled,outcome
