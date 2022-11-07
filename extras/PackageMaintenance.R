@@ -1,6 +1,6 @@
-# Copyright 2020 Observational Health Data Sciences and Informatics
+# Copyright 2022 Observational Health Data Sciences and Informatics
 #
-# This file is part of Reproducibility
+# This file is part of ReproducibilityRayJAMA2021
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,35 +15,43 @@
 # limitations under the License.
 
 # Format and check code ---------------------------------------------------
-OhdsiRTools::formatRFolder()
-OhdsiRTools::checkUsagePackage("Reproducibility")
+install.packages("styler")
+styler::style_pkg()
+remotes::install_github("ohdsi/OhdsiRTools")
+OhdsiRTools::checkUsagePackage("ReproducibilityRayJAMA2021")
 OhdsiRTools::updateCopyrightYearFolder()
+install.packages("devtools")
 devtools::spell_check()
 
 # Create manual -----------------------------------------------------------
-unlink("extras/Reproducibility.pdf")
-shell("R CMD Rd2pdf ./ --output=extras/Reproducibility.pdf")
+unlink("extras/ReproducibilityRayJAMA2021.pdf")
+shell("R CMD Rd2pdf ./ --output=extras/ReproducibilityRayJAMA2021.pdf")
 
 # Create vignettes ---------------------------------------------------------
+install.packages("rmarkdown")
+dir.create("inst/doc")
 rmarkdown::render("vignettes/UsingSkeletonPackage.Rmd",
                   output_file = "../inst/doc/UsingSkeletonPackage.pdf",
                   rmarkdown::pdf_document(latex_engine = "pdflatex",
                                           toc = TRUE,
                                           number_sections = TRUE))
+unlink("inst/doc/UsingSkeletonPackage.tex")
 
 rmarkdown::render("vignettes/DataModel.Rmd",
                   output_file = "../inst/doc/DataModel.pdf",
                   rmarkdown::pdf_document(latex_engine = "pdflatex",
                                           toc = TRUE,
                                           number_sections = TRUE))
+unlink("inst/doc/DataModel.tex")
 
 # Insert cohort definitions from ATLAS into package -----------------------
-ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "CohortsToCreate.csv",
+remotes::install_github("ohdsi/ROhdsiWebApi")
+ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "Cohorts.csv",
                                                  baseUrl = Sys.getenv("baseUrl"),
                                                  insertTableSql = TRUE,
                                                  insertCohortCreationR = TRUE,
                                                  generateStats = FALSE,
-                                                 packageName = "Reproducibility")
+                                                 packageName = "ReproducibilityRayJAMA2021")
 
 # Create analysis details -------------------------------------------------
 source("extras/CreateStudyAnalysisDetails.R")
@@ -51,4 +59,7 @@ createAnalysesDetails("inst/settings/")
 createPositiveControlSynthesisArgs("inst/settings/")
 
 # Store environment in which the study was executed -----------------------
-OhdsiRTools::createRenvLockFile("Reproducibility")
+OhdsiRTools::createRenvLockFile(rootPackage = "ReproducibilityRayJAMA2021",
+                                mode = "description",
+                                includeRootPackage = FALSE,
+                                additionalRequiredPackages = "keyring")
