@@ -1,0 +1,20 @@
+atlasId,atlasName,cohortId,name
+1747,[reproducibility] JAMA Ray 2021-T,1747,reproducibility_JAMA_Ray_2021T
+1748,[reproducibility] JAMA Ray 2021-C,1748,reproducibility_JAMA_Ray_2021C
+1784,[reproducibility] JAMA Ray 2021-O Other intracranial bleed (no dx position),1784,reproducibility_JAMA_Ray_2021O_Other_intracranial_bleed_no_dx_position
+1783,[Reproducibility] Ray JAMA 2021_ O Hemorrhagic Stroke (no dx position),1783,Reproducibility_Ray_JAMA_2021__O_Hemorrhagic_Stroke_no_dx_position
+1786,[reproducibility] JAMA Ray 2021-O Other extracranial bleed (no dx position),1786,reproducibility_JAMA_Ray_2021O_Other_extracranial_bleed_no_dx_position
+1848,[Reproducibility] Ray JAMA 2021_ Hemorrhagic stroke (FDA AESI),1848,Reproducibility_Ray_JAMA_2021__Hemorrhagic_stroke_FDA_AESI
+1851,[Reproducibility] Ray JAMA 2021_ O Hemorrhagic Stroke (no dx position) different,1851,Reproducibility_Ray_JAMA_2021__O_Hemorrhagic_Stroke_no_dx_position_different
+1852,[reproducibility] JAMA Ray 2021-O Other intracranial bleed (no dx position) different,1852,reproducibility_JAMA_Ray_2021O_Other_intracranial_bleed_no_dx_position_different
+1850,[Reproducibility] Ray JAMA 2021_ non-Hemorrhagic stroke (FDA AESI),1850,Reproducibility_Ray_JAMA_2021__nonHemorrhagic_stroke_FDA_AESI
+1847,[Reproducibility] Ray JAMA 2021_ O Ischemic Stroke (no dx position),1847,Reproducibility_Ray_JAMA_2021__O_Ischemic_Stroke_no_dx_position
+1849,[Reproducibility] Ray JAMA 2021_ O Ischemic Stroke (no dx position) different,1849,Reproducibility_Ray_JAMA_2021__O_Ischemic_Stroke_no_dx_position_different
+1788,[reproducibility] JAMA Ray 2021-T after 2018,1788,reproducibility_JAMA_Ray_2021T_after_2018
+1789,[reproducibility] JAMA Ray 2021-C after Nov 2018,1789,reproducibility_JAMA_Ray_2021C_after_Nov_2018
+1790,[reproducibility] JAMA Ray 2021-T all times,1790,reproducibility_JAMA_Ray_2021T_all_times
+1791,[reproducibility] JAMA Ray 2021-C all time,1791,reproducibility_JAMA_Ray_2021C_all_time
+1792,[reproducibility] JAMA Ray 2021-T all age,1792,reproducibility_JAMA_Ray_2021T_all_age
+1793,[reproducibility] JAMA Ray 2021-C all age,1793,reproducibility_JAMA_Ray_2021C_all_age
+1794,[reproducibility] JAMA Ray 2021-T below 65,1794,reproducibility_JAMA_Ray_2021T_below_65
+1795,[reproducibility] JAMA Ray 2021-C below 65,1795,reproducibility_JAMA_Ray_2021C_below_65
