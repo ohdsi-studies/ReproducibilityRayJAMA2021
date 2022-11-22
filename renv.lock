@@ -592,6 +592,16 @@
 			"RemoteRepo" : "OhdsiSharing",
 			"RemoteUsername" : "ohdsi",
 			"RemoteRef" : "v0.2.2"
+		},
+		"ReproducibilityRayJAMA2021" : {
+			"Package" : "ReproducibilityRayJAMA2021",
+			"Version" : "0.0.1",
+			"Source" : "GitHub",
+			"RemoteType" : "github",
+			"RemoteHost" : "api.github.com",
+			"RemoteRepo" : "ReproducibilityRayJAMA2021",
+			"RemoteUsername" : "ohdsi-studies",
+			"RemoteRef" : "tst_pkg_build"
 		}
 	}
 }
