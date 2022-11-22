@@ -19,7 +19,7 @@ How to run
 
     ```r
     install.packages("renv")
-    download.file("https://raw.githubusercontent.com/ohdsi-studies/ReproducibilityRayJAMA2021/main/renv.lock", "renv.lock")
+    download.file("https://raw.githubusercontent.com/ohdsi-studies/ReproducibilityRayJAMA2021/tst_pkg_build/renv.lock", "renv.lock")
     renv::init()
     ```  
     
