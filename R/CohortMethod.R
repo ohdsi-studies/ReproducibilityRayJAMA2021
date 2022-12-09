@@ -110,8 +110,10 @@ computeCovariateBalance <- function(row, cmOutputFolder, balanceFolder) {
     cohortMethodData <- CohortMethod::loadCohortMethodData(cohortMethodDataFile)
     strataFile <- file.path(cmOutputFolder, row$strataFile)
     strata <- readRDS(strataFile)
-    balance <- CohortMethod::computeCovariateBalance(population = strata, cohortMethodData = cohortMethodData)
-    saveRDS(balance, outputFileName)
+    if (nrow(strata) > 0) {
+      balance <- CohortMethod::computeCovariateBalance(population = strata, cohortMethodData = cohortMethodData)
+      saveRDS(balance, outputFileName)
+    }
   }
 }
 
