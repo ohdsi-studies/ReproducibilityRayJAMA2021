@@ -1,6 +1,18 @@
 ReproducibilityDec2022
 ==============================
 
+<img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started">
+
+- Analytics use case(s): **Population Level Estimation**
+- Study type: **Clinical Application**
+- Tags: **Reproducibility**
+- Study lead: **Asieh Golozar**
+- Study lead forums tag: **-**
+- Study start date: **-**
+- Study end date: **-**
+- Protocol: **-**
+- Publications: **-**
+- Results explorer: **-**
 
 Requirements
 ============
