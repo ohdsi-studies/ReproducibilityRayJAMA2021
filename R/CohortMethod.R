@@ -1,6 +1,6 @@
 # Copyright 2020 Observational Health Data Sciences and Informatics
 #
-# This file is part of Reproducibility
+# This file is part of ReproducibilityDec2022
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -53,7 +53,7 @@ runCohortMethod <- function(connectionDetails,
   }
   cmAnalysisListFile <- system.file("settings",
                                     "cmAnalysisList.json",
-                                    package = "Reproducibility")
+                                    package = "ReproducibilityDec2022")
   cmAnalysisList <- CohortMethod::loadCmAnalysisList(cmAnalysisListFile)
   tcosList <- createTcos(outputFolder = outputFolder)
   outcomesOfInterest <- getOutcomesOfInterest()
@@ -110,17 +110,15 @@ computeCovariateBalance <- function(row, cmOutputFolder, balanceFolder) {
     cohortMethodData <- CohortMethod::loadCohortMethodData(cohortMethodDataFile)
     strataFile <- file.path(cmOutputFolder, row$strataFile)
     strata <- readRDS(strataFile)
-    if (nrow(strata) > 0) {
-      balance <- CohortMethod::computeCovariateBalance(population = strata, cohortMethodData = cohortMethodData)
-      saveRDS(balance, outputFileName)
-    }
+    balance <- CohortMethod::computeCovariateBalance(population = strata, cohortMethodData = cohortMethodData)
+    saveRDS(balance, outputFileName)
   }
 }
 
 addAnalysisDescription <- function(data, IdColumnName = "analysisId", nameColumnName = "analysisDescription") {
   cmAnalysisListFile <- system.file("settings",
                                     "cmAnalysisList.json",
-                                    package = "Reproducibility")
+                                    package = "ReproducibilityDec2022")
   cmAnalysisList <- CohortMethod::loadCmAnalysisList(cmAnalysisListFile)
   idToName <- lapply(cmAnalysisList, function(x) data.frame(analysisId = x$analysisId, description = as.character(x$description)))
   idToName <- do.call("rbind", idToName)
@@ -136,7 +134,7 @@ addAnalysisDescription <- function(data, IdColumnName = "analysisId", nameColumn
 }
 
 createTcos <- function(outputFolder) {
-  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "Reproducibility")
+  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "ReproducibilityDec2022")
   tcosOfInterest <- read.csv(pathToCsv, stringsAsFactors = FALSE)
   allControls <- getAllControls(outputFolder)
   tcs <- unique(rbind(tcosOfInterest[, c("targetId", "comparatorId")],
@@ -171,7 +169,7 @@ createTcos <- function(outputFolder) {
 }
 
 getOutcomesOfInterest <- function() {
-  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "Reproducibility")
+  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "ReproducibilityDec2022")
   tcosOfInterest <- read.csv(pathToCsv, stringsAsFactors = FALSE) 
   outcomeIds <- as.character(tcosOfInterest$outcomeIds)
   outcomeIds <- do.call("c", (strsplit(outcomeIds, split = ";")))
@@ -186,7 +184,7 @@ getAllControls <- function(outputFolder) {
     allControls <- read.csv(allControlsFile)
   } else {
     # Include only negative controls
-    pathToCsv <- system.file("settings", "NegativeControls.csv", package = "Reproducibility")
+    pathToCsv <- system.file("settings", "NegativeControls.csv", package = "ReproducibilityDec2022")
     allControls <- read.csv(pathToCsv)
     allControls$oldOutcomeId <- allControls$outcomeId
     allControls$targetEffectSize <- rep(1, nrow(allControls))
