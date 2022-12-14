@@ -417,7 +417,7 @@ from
 JOIN #Codesets cs on (de.drug_concept_id = cs.concept_id and cs.codeset_id = 0)
 ) C
 
-WHERE C.drug_exposure_start_date >= DATEFROMPARTS(2013, 1, 1)
+
 -- End Drug Exposure Criteria
 
   ) E
@@ -2274,9 +2274,9 @@ group by person_id, end_date
 
 DELETE FROM @target_database_schema.@target_cohort_table where cohort_definition_id = @target_cohort_id;
 INSERT INTO @target_database_schema.@target_cohort_table (cohort_definition_id, subject_id, cohort_start_date, cohort_end_date)
-select @target_cohort_id as cohort_definition_id, person_id, start_date, CASE WHEN end_date < DATEFROMPARTS(2022, 12, 1) THEN end_date ELSE DATEFROMPARTS(2022, 12, 1) END 
+select @target_cohort_id as cohort_definition_id, person_id, start_date, CASE WHEN end_date < DATEFROMPARTS(2018, 11, 30) THEN end_date ELSE DATEFROMPARTS(2018, 11, 30) END 
 FROM #final_cohort CO
-WHERE start_date <= CASE WHEN end_date < DATEFROMPARTS(2022, 12, 1) THEN end_date ELSE DATEFROMPARTS(2022, 12, 1) END
+WHERE start_date <= CASE WHEN end_date < DATEFROMPARTS(2018, 11, 30) THEN end_date ELSE DATEFROMPARTS(2018, 11, 30) END
 ;
 
 {0 != 0}?{

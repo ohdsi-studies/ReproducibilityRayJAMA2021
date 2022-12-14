@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "ReproducibilityDec2022"
+		"find": "Reproducibility"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "ReproducibilityDec2022"
+		"find": "Reproducibility"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

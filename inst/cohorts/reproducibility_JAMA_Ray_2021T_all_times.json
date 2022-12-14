@@ -6,7 +6,7 @@
   },
   "CensorWindow": {
     "StartDate": null,
-    "EndDate": "2022-12-01"
+    "EndDate": "2018-11-30"
   },
   "ConceptSets": [
     {
@@ -10536,11 +10536,7 @@
       "VisitType": null,
       "Refills": null,
       "First": null,
-      "OccurrenceStartDate": {
-        "Op": "gte",
-        "Extent": null,
-        "Value": "2013-01-01"
-      },
+      "OccurrenceStartDate": null,
       "RouteConcept": null,
       "StopReason": null,
       "LotNumber": null,
